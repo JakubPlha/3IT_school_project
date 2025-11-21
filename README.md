@@ -1,6 +1,6 @@
 # 00 - Návrh a schválení vlastního tématu
 ## Název projektu
-Hlavní postavy FAMILY GUY
+Hlavní postavy animovaného seriálu FAMILY GUY
 
 ## Žák
 Jakub Plha
