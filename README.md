@@ -5,14 +5,14 @@ Hlavní postavy FAMILY GUY
 ## Žák
 Jakub Plha
 
-## Stručný pops tématu (3-5 vět)
+## Stručný popis tématu (3-5 vět)
 Webová stránka zaměřená na popis a přehled hlavních postav FAMILY GUY. Stránka bude mít podobu one-page webu s několika sekcemi, které představí postavy, informace o postavách, aktuální hlavní postavy a jejich zájmy.Cílem projektu je vytvořit moderní, přehledný a responzivní web se zaměřením na práci s daty a jednoduchou serverovou komunikaci.
 
 ## Cílová skupina
 Lidé které zajímá seriál FAMILY GUY a fanoušci animovaného seriálu FAMILY GUY 13+
 
 ## Návrh obsahových sekcí
-1. O seriálu základní představení seriálu
+1. Základní představení seriálu
 2. Přehled postav
 3. Popis postav
 4. Kontakty
@@ -30,8 +30,8 @@ Lidé které zajímá seriál FAMILY GUY a fanoušci animovaného seriálu FAMIL
 - Verzování: GitHub (repozitář dostupný vyučujícímu)
 
 ## Očekávaný přínos / co se naučím
-- práce s JSON a strukturovanými daty
-- načítání dat pomocí AJAX a dynamické vkládání obsahu
-- používání backendu
-- tvorba responzivního designu
-- organizace projektu ve složkách, verzování přes GitHub
+- Práce s JSON a strukturovanými daty
+- Načítání dat pomocí AJAX a dynamické vkládání obsahu
+- Používání backendu
+- Tvorba responzivního designu
+- Organizace projektu ve složkách, verzování přes GitHub
