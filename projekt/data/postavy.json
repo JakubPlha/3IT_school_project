@@ -1,0 +1,71 @@
+[
+    {
+       "id": 1,
+        "name": "Peter Griffin",
+        "gender": "male",
+        "age": "43",
+        "status": "alive",
+        "relationship": "husband",
+        "children": "3",
+        "spouse": "Lois Griffin",
+        "enemy": "Ernie the Giant Chicken",
+        "image": "",
+        "description": ""
+    },
+    {
+       "id": 2,
+        "name": "Lois Griffin",
+        "gender": "female",
+        "age": "43",
+        "status": "alive",
+        "relationship": "wife",
+        "children": "3",
+        "spouse": "Peter Griffin",
+        "image": "",
+        "description": ""
+    },
+    {
+       "id": 3,
+        "name": "Meg Griffin",
+        "gender": "female",
+        "age": "18",
+        "status": "alive",
+        "relationship": "none",
+        "children": "none",
+        "image": "",
+        "description": ""
+    },
+    {
+       "id": 4,
+        "name": "Chris Griffin",
+        "gender": "male",
+        "age": "16",
+        "status": "alive",
+        "relationship": "none",
+        "children": "none",
+        "image": "",
+        "description": ""
+    },
+    {
+       "id": 5,
+        "name": "Stewie Griffin",
+        "gender": "male",
+        "age": "1",
+        "status": "alive",
+        "relationship": "none",
+        "children": "none",
+        "image": "",
+        "description": ""
+    },
+    {
+       "id": 6,
+        "name": "Brian Griffin",
+        "gender": "dog",
+        "age": "10",
+        "status": "alive",
+        "relationship": "none",
+        "children": "none",
+        "image": "",
+        "description": ""
+    }
+]
