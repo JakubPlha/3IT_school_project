@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Family Guy – Postavy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="font-sans bg-gray-100 text-gray-800">
+
+    <header class="fixed top-0 left-0 w-full bg-white shadow-md z-[1000]">
+        <div class="max-w-5xl mx-auto px-4 flex items-center justify-between py-3">
+            <div class="flex items-center">
+                <img src="logo-left.png" alt="Logo vlevo" class="h-10 w-auto">
+            </div>
+            <nav class="flex gap-6">
+                <a href="#uvod" class="font-bold text-lg hover:text-blue-600">Úvod</a>
+                <a href="#o-nas" class="font-bold text-lg hover:text-blue-600">O nás</a>
+                <a href="#postavy" class="font-bold text-lg hover:text-blue-600">Postavy</a>
+                <a href="#footer" class="font-bold text-lg hover:text-blue-600">Kontakty</a>
+            </nav>
+            <div class="flex items-center">
+                <img src="logo-right.png" alt="Logo vpravo" class="h-10 w-auto">
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-28 px-4 max-w-5xl mx-auto">
+
+        <section id="uvod" class="mb-16 text-center">
+            <h1 class="text-4xl sm:text-5xl font-bold mb-4">Vítejte na stránce o Family Guy</h1>
+            <p class="text-lg sm:text-xl">Informace o postavách a světě Family Guy.</p>
+        </section>
+
+        <section id="o-nas" class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">O nás</h2>
+            <p class="text-lg">Fanouškovská stránka pro všechny, kteří mají rádi Family Guy.</p>
+        </section>
+
+        <section id="postavy" class="mb-16">
+            <h2 class="text-3xl font-bold mb-6 text-center">Postavy</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+                <article class="bg-white shadow rounded-lg p-4 text-center">
+                    <img src="peter.jpg" alt="Peter Griffin" class="w-full h-48 object-cover rounded-md mb-3">
+                    <h3 class="text-xl font-bold mb-2">Peter Griffin</h3>
+                    <p class="text-gray-700">Hlavní postava, známý svým humorem a chaotickými nápady.</p>
+                </article>
+
+                <article class="bg-white shadow rounded-lg p-4 text-center">
+                    <img src="lois.jpg" alt="Lois Griffin" class="w-full h-48 object-cover rounded-md mb-3">
+                    <h3 class="text-xl font-bold mb-2">Lois Griffin</h3>
+                    <p class="text-gray-700">Manželka Petera, inteligentní a trpělivá.</p>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="bg-blue-300 py-8 text-white">
+        <div class="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <h3 class="text-xl font-bold mb-3">Kontakty</h3>
+                <ul class="space-y-2 text-lg">
+                    <li>Email: fanpage.familyguy@example.com</li>
+                    <li>Instagram: <a href="#" class="underline hover:text-yellow-300">@FamilyGuyFan</a></li>
+                    <li>Facebook: <a href="#" class="underline hover:text-yellow-300">FamilyGuy Fan Club</a></li>
+                    <li>Telefon: +420 123 456 789</li>
+                </ul>
+            </div>
+            <div class="flex items-start md:items-end justify-start md:justify-end text-lg mt-4 md:mt-0">
+                <p>© 2025 Family Guy fanpage</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
