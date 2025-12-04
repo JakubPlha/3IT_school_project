@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Guy – Postavy</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
 </head>
 <body class="font-sans bg-gray-100 text-gray-800">
 
@@ -36,28 +38,80 @@
             <h2 class="text-3xl font-bold mb-4">O nás</h2>
             <p class="text-lg">Fanouškovská stránka pro všechny, kteří mají rádi Family Guy.</p>
         </section>
+<!-- postavy
+        <section id="postavy" class="mb-20">
+    <h2 class="text-3xl font-bold mb-6 text-center">Hlavní postavy</h2>
 
-        <section id="postavy" class="mb-16">
-            <h2 class="text-3xl font-bold mb-6 text-center">Postavy</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+    <div id="main-characters" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <article class="bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 hover:shadow-xl transition">
+            <div class="w-full h-48 bg-gray-200 rounded-md mb-3"></div>
+            <h3 class="text-xl font-bold mb-2">Jméno postavy</h3>
+            <p class="text-gray-700">Popis postavy…</p>
+        </article>
 
-                <article class="bg-white shadow rounded-lg p-4 text-center">
-                    <img src="peter.jpg" alt="Peter Griffin" class="w-full h-48 object-cover rounded-md mb-3">
-                    <h3 class="text-xl font-bold mb-2">Peter Griffin</h3>
-                    <p class="text-gray-700">Hlavní postava, známý svým humorem a chaotickými nápady.</p>
-                </article>
+        <article class="bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 hover:shadow-xl transition">
+            <div class="w-full h-48 bg-gray-200 rounded-md mb-3"></div>
+            <h3 class="text-xl font-bold mb-2">Jméno postavy</h3>
+            <p class="text-gray-700">Popis postavy…</p>
+        </article>
+    </div>
+</section>
 
-                <article class="bg-white shadow rounded-lg p-4 text-center">
-                    <img src="lois.jpg" alt="Lois Griffin" class="w-full h-48 object-cover rounded-md mb-3">
-                    <h3 class="text-xl font-bold mb-2">Lois Griffin</h3>
-                    <p class="text-gray-700">Manželka Petera, inteligentní a trpělivá.</p>
-                </article>
+<section id="vedlejsi-postavy" class="mb-20">
+    <h2 class="text-3xl font-bold mb-6 text-center">Vedlejší hlavní postavy</h2>
 
+    <div id="side-characters" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <article class="bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 hover:shadow-xl transition">
+            <div class="w-full h-48 bg-gray-200 rounded-md mb-3"></div>
+            <h3 class="text-xl font-bold mb-2">Jméno postavy</h3>
+            <p class="text-gray-700">Popis postavy…</p>
+        </article>
+
+        <article class="bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 hover:shadow-xl transition">
+            <div class="w-full h-48 bg-gray-200 rounded-md mb-3"></div>
+            <h3 class="text-xl font-bold mb-2">Jméno postavy</h3>
+            <p class="text-gray-700">Popis postavy…</p>
+        </article>
+    </div>
+</section>
+-->
+<section id="postavy" class="mb-20">
+    <h2 class="text-3xl font-bold mb-6 text-center">Hlavní postavy</h2>
+
+    <div id="main-characters" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        <article class="flip-card w-full h-64" tabindex="0" role="button" aria-pressed="false">
+            <div class="flip-inner w-full h-full">
+                <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
+                    <img src="peter.jpg" alt="Peter Griffin" class="w-full h-36 object-cover rounded-md mb-3">
+                    <h3 class="text-xl font-bold">Peter Griffin</h3>
+                </div>
+                <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Peter Griffin</h3>
+                        <p class="text-gray-700">Hlavní postava, známý svým humorem a chaosem.</p>
+                    </div>
+                </div>
             </div>
-        </section>
+        </article>
 
-    </main>
+        <article class="flip-card w-full h-64" tabindex="0" role="button" aria-pressed="false">
+            <div class="flip-inner w-full h-full">
+                <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
+                    <img src="lois.jpg" alt="Lois Griffin" class="w-full h-36 object-cover rounded-md mb-3">
+                    <h3 class="text-xl font-bold">Lois Griffin</h3>
+                </div>
+                <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Lois Griffin</h3>
+                        <p class="text-gray-700">Inteligentní, pevná osobnost, drží rodinu pohromadě.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
 
+    </div>
+</section>
     <footer id="footer" class="bg-blue-300 py-8 text-white">
         <div class="max-w-5xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
@@ -74,6 +128,31 @@
             </div>
         </div>
     </footer>
+</section>
+
+<script>
+    // Flip cards on click, and support keyboard (Enter/Space). Update ARIA pressed state.
+    (function(){
+        const cards = document.querySelectorAll('.flip-card');
+        cards.forEach(card => {
+            // toggle on click
+            card.addEventListener('click', function(e){
+                const isFlipped = card.classList.toggle('is-flipped');
+                card.setAttribute('aria-pressed', isFlipped ? 'true' : 'false');
+            });
+
+            // keyboard support: Enter (13) and Space (32)
+            card.addEventListener('keydown', function(e){
+                if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+                    // prevent page scroll on Space
+                    e.preventDefault();
+                    const isFlipped = card.classList.toggle('is-flipped');
+                    card.setAttribute('aria-pressed', isFlipped ? 'true' : 'false');
+                }
+            });
+        });
+    })();
+</script>
 
 </body>
 </html>
