@@ -1,4 +1,4 @@
-/* Flip card styles */
+/* Flip card */
 .flip-card {
 	perspective: 1000px;
 }
@@ -15,7 +15,6 @@
 	transform: rotateY(180deg);
 }
 
-/* Remove any focus outline so no blue border appears */
 .flip-card:focus,
 .flip-card:focus-visible {
   outline: none;
@@ -31,7 +30,7 @@
 	left: 0;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
-	border-radius: 0.75rem; /* match rounded-xl */
+	border-radius: 0.75rem;
 }
 
 .flip-front {
