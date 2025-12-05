@@ -1,0 +1,71 @@
+[
+    {
+       "id": 1,
+        "name": "Peter Griffin",
+        "gender": "muž",
+        "age": "43",
+        "status": "živý",
+        "relationship": "manžel",
+        "children": "3",
+        "spouse": "Lois Griffin",
+        "enemy": "Ernie the Giant Chicken",
+        "image": "",
+        "description": ""
+    },
+    {
+       "id": 2,
+        "name": "Lois Griffin",
+        "gender": "žena",
+        "age": "43",
+        "status": "živá",
+        "relationship": "manželka",
+        "children": "3",
+        "spouse": "Peter Griffin",
+        "image": "",
+        "description": ""
+    },
+    {
+       "id": 3,
+        "name": "Meg Griffin",
+        "gender": "žena",
+        "age": "18",
+        "status": "živá",
+        "relationship": "žádný",
+        "children": "žádné",
+        "image": "",
+        "description": ""
+    },
+    {
+       "id": 4,
+        "name": "Chris Griffin",
+        "gender": "muž",
+        "age": "16",
+        "status": "živý",
+        "relationship": "žádný",
+        "children": "žádné",
+        "image": "",
+        "description": ""
+    },
+    {
+       "id": 5,
+        "name": "Stewie Griffin",
+        "gender": "muž",
+        "age": "1",
+        "status": "živý",
+        "relationship": "žádný",
+        "children": "žádné",
+        "image": "",
+        "description": ""
+    },
+    {
+       "id": 6,
+        "name": "Brian Griffin",
+        "gender": "pes",
+        "age": "10",
+        "status": "živý",
+        "relationship": "žádný",
+        "children": "žádné",
+        "image": "",
+        "description": ""
+    }
+]

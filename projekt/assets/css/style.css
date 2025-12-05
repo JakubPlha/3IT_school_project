@@ -39,6 +39,35 @@
 	overflow: hidden;
 }
 
+/* Click indicator (small chevron) at bottom of front face */
+.flip-card {
+	cursor: pointer;
+}
+
+.flip-front::after {
+	content: "›";
+	position: absolute;
+	right: 12px;
+	bottom: 12px;
+	left: auto;
+	transform: translateX(0) translateY(0);
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	font-size: 14px;
+	line-height: 1;
+	padding: 6px 8px;
+	border-radius: 999px;
+	pointer-events: none;
+	transition: transform 0.25s ease, opacity 0.25s ease;
+	opacity: 0.95;
+}
+
+/* hide indicator when card is flipped (slide right and fade) */
+.flip-card.is-flipped .flip-front::after {
+	opacity: 0;
+	transform: translateX(8px);
+}
+
 .flip-back {
 	transform: rotateY(180deg);
 	display: flex;

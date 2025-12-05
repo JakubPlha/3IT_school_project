@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Joe Swanson",
+    "gender": "muž",
+    "age": "50+",
+    "status": "živý",
+    "relationship": "ženatý",
+    "children": "2 (Kevin, Susie)",
+    "spouse": "Bonnie Swanson (živá)",
+    "enemy": "Invalidní vozík (způsobuje mu potíže a frustraci)",
+    "image": "[Obrázek Joea Swansona]",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "name": "Cleveland Brown",
+    "gender": "muž",
+    "age": "50+",
+    "status": "živý",
+    "relationship": "ženatý",
+    "children": "3 (Cleveland Brown Jr., Roberta Tubbs, Rallo Tubbs)",
+    "spouse": "Donna Tubbs-Brown (živá)",
+    "enemy": "Glenn Quagmire, Peter Griffin (rivalita/překračování hranic)",
+    "image": "[Obrázek Clevelanda Browna]",
+    "description": ""
+  },
+  {
+    "id": 3,
+    "name": "Glenn Quagmire",
+    "gender": "muž",
+    "age": "61+",
+    "status": "živý",
+    "relationship": "svobodný",
+    "children": "2-100+ (např. Courtney, Peter)",
+    "spouse": "Svobodný (byl krátce ženatý, např. s Charmisse, která zemřela)",
+    "enemy": "Brian Griffin (pohrdá Brianovou arogancí a chováním)",
+    "image": "[Obrázek Glenna Quagmira]",
+    "description": ""
+  },
+  {
+    "id": 4,
+    "name": "Herbert (Old Man Herbert)",
+    "gender": "muž",
+    "age": "80+",
+    "status": "živý",
+    "relationship": "vdovec",
+    "children": "0 (nebo neuvedeno)",
+    "spouse": "Vdovec (Muriel zmíněna, ale nezobrazena, zesnulá)",
+    "enemy": "Kdokoli, kdo by se mohl líbit Chrisovi (žárlivost a posedlost)",
+    "image": "[Obrázek Starého muže Herberta]",
+    "description": ""
+  },
+  {
+    "id": 5,
+    "name": "Ernie The Giant Chicken",
+    "gender": "muž",
+    "age": "Neznámý",
+    "status": "naživu (opakovaně)",
+    "relationship": "svobodný",
+    "children": "0",
+    "spouse": "Svobodný (neuvedeno)",
+    "enemy": "Peter Griffin (kvůli kuponu s prošlou platností)",
+    "image": "[Obrázek Ernie The Giant Chicken]",
+    "description": ""
+  },
+  {
+    "id": 6,
+    "name": "Mort Goldman",
+    "gender": "muž",
+    "age": "40-50",
+    "status": "naživu",
+    "relationship": "vdovec",
+    "children": "1 (Neil Goldman)",
+    "spouse": "Muriel Goldman (zesnulá)",
+    "enemy": "Peter Griffin (kvůli nehodám a ponižování)",
+    "image": "[Obrázek Morta Goldmana]",
+    "description": ""
+  }
+]
