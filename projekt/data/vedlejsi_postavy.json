@@ -9,7 +9,7 @@
     "children": "2 (Kevin, Susie)",
     "spouse": "Bonnie Swanson (živá)",
     "enemy": "Invalidní vozík (způsobuje mu potíže a frustraci)",
-    "image": "[Obrázek Joea Swansona]",
+    "image": "https://via.placeholder.com/300x200?text=Joe+Swanson",
     "description": ""
   },
   {
@@ -22,7 +22,7 @@
     "children": "3 (Cleveland Brown Jr., Roberta Tubbs, Rallo Tubbs)",
     "spouse": "Donna Tubbs-Brown (živá)",
     "enemy": "Glenn Quagmire, Peter Griffin (rivalita/překračování hranic)",
-    "image": "[Obrázek Clevelanda Browna]",
+    "image": "https://via.placeholder.com/300x200?text=Cleveland+Brown",
     "description": ""
   },
   {
@@ -35,7 +35,7 @@
     "children": "2-100+ (např. Courtney, Peter)",
     "spouse": "Svobodný (byl krátce ženatý, např. s Charmisse, která zemřela)",
     "enemy": "Brian Griffin (pohrdá Brianovou arogancí a chováním)",
-    "image": "[Obrázek Glenna Quagmira]",
+    "image": "https://via.placeholder.com/300x200?text=Glenn+Quagmire",
     "description": ""
   },
   {
@@ -48,20 +48,20 @@
     "children": "0 (nebo neuvedeno)",
     "spouse": "Vdovec (Muriel zmíněna, ale nezobrazena, zesnulá)",
     "enemy": "Kdokoli, kdo by se mohl líbit Chrisovi (žárlivost a posedlost)",
-    "image": "[Obrázek Starého muže Herberta]",
+    "image": "https://via.placeholder.com/300x200?text=Herbert",
     "description": ""
   },
   {
     "id": 5,
     "name": "Ernie The Giant Chicken",
-    "gender": "muž",
+    "gender": "kuře",
     "age": "Neznámý",
     "status": "naživu (opakovaně)",
     "relationship": "svobodný",
     "children": "0",
     "spouse": "Svobodný (neuvedeno)",
     "enemy": "Peter Griffin (kvůli kuponu s prošlou platností)",
-    "image": "[Obrázek Ernie The Giant Chicken]",
+    "image": "https://via.placeholder.com/300x200?text=Ernie+Chicken",
     "description": ""
   },
   {
@@ -74,7 +74,7 @@
     "children": "1 (Neil Goldman)",
     "spouse": "Muriel Goldman (zesnulá)",
     "enemy": "Peter Griffin (kvůli nehodám a ponižování)",
-    "image": "[Obrázek Morta Goldmana]",
+    "image": "https://via.placeholder.com/300x200?text=Mort+Goldman",
     "description": ""
   }
 ]

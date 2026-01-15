@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Guy – Postavy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    
+</head>
+<body class="font-sans bg-gray-100 text-gray-800">
+
+    <header class="fixed top-0 left-0 w-full bg-white shadow-md z-[1000]">
+        <div class="max-w-5xl mx-auto px-4 flex items-center justify-between py-3">
+            <div class="flex items-center">
+                <img src="logo-left.png" alt="Logo vlevo" class="h-10 w-auto">
+            </div>
+            <nav class="flex gap-6">
+                <a href="#uvod" class="font-bold text-lg hover:text-blue-600">Úvod</a>
+                <a href="#o-nas" class="font-bold text-lg hover:text-blue-600">O nás</a>
+                <a href="#postavy" class="font-bold text-lg hover:text-blue-600">Postavy</a>
+                <a href="#footer" class="font-bold text-lg hover:text-blue-600">Kontakty</a>
+            </nav>
+            <div class="flex items-center">
+                <img src="logo-right.png" alt="Logo vpravo" class="h-10 w-auto">
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-28 px-4 max-w-5xl mx-auto">
+
+        <section id="uvod" class="mb-16 text-center">
+            <h1 class="text-4xl sm:text-5xl font-bold mb-4">Vítejte na stránce o Family Guy</h1>
+            <p class="text-lg sm:text-xl">Informace o postavách a světě Family Guy.</p>
+        </section>
+
+        <section id="o-nas" class="mb-16">
+            <h2 class="text-3xl font-bold mb-4">O nás</h2>
+            <p class="text-lg">Fanouškovská stránka pro všechny, kteří mají rádi Family Guy.</p>
+        </section>
+<section id="postavy" class="mb-20">
+    <h2 class="text-3xl font-bold mb-6 text-center">Hlavní postavy</h2>
+
+    <div id="main-characters" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+        <article class="flip-card w-full h-64" tabindex="0" role="button" aria-pressed="false">
+            <div class="flip-inner w-full h-full">
+                <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
+                    <h3 class="text-xl font-bold">Peter Griffin</h3>
+                </div>
+                <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Peter Griffin</h3>
+                        <p class="text-gray-700">Hlavní postava, známý svým humorem a chaosem.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="flip-card w-full h-64" tabindex="0" role="button" aria-pressed="false">
+            <div class="flip-inner w-full h-full">
+                <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
+                    <h3 class="text-xl font-bold">Lois Griffin</h3>
+                </div>
+                <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Lois Griffin</h3>
+                        <p class="text-gray-700">Inteligentní, pevná osobnost, drží rodinu pohromadě.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="flip-card w-full h-64" tabindex="0" role="button" aria-pressed="false">
+            <div class="flip-inner w-full h-full">
+                <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
+                    <h3 class="text-xl font-bold">Stewie Griffin</h3>
+                </div>
+                <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Stewie Griffin</h3>
+                        <p class="text-gray-700">Něco zatím</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+    <section id="vedlejsi-postavy" class="mb-20">
+        <h2 class="text-3xl font-bold mb-6 text-center">Vedlejší postavy</h2>
+
+        <div id="side-characters" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+
+            <article class="flip-card w-full h-64">
+                <div class="flip-inner w-full h-full">
+                    <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
+                        <h3 class="text-xl font-bold">Glenn Quagmire</h3>
+                    </div>
+                    <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Glenn Quagmire</h3>
+                            <p class="text-gray-700">Známý svými výstřelky a „Giggity" frází.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flip-card w-full h-64">
+                <div class="flip-inner w-full h-full">
+                    <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
+                        <h3 class="text-xl font-bold">Joe Swanson</h3>
+                    </div>
+                    <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Joe Swanson</h3>
+                            <p class="text-gray-700">Policista s pevným charakterem a omezenou mobilitou.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="flip-card w-full h-64">
+                <div class="flip-inner w-full h-full">
+                    <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
+                        <h3 class="text-xl font-bold">Cleveland Brown</h3>
+                    </div>
+                    <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
+                        <div>
+                            <h3 class="text-xl font-bold mb-2">Cleveland Brown</h3>
+                            <p class="text-gray-700">Klidný a přátelský soused rodiny Griffinů.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <footer id="footer" class="bg-blue-500 py-10 sm:py-12 text-white">
+        <div class="max-w-5xl w-full mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <h3 class="text-xl font-bold mb-3">Kontakty</h3>
+                <ul class="space-y-2 text-lg">
+                    <li>Email: fanpage.familyguy@example.com</li>
+                    <li>Instagram: <a href="#" class="underline hover:text-yellow-400">@FamilyGuyFan</a></li>
+                    <li>Facebook: <a href="#" class="underline hover:text-yellow-400">FamilyGuy Fan Club</a></li>
+                    <li>Telefon: +420 123 456 789</li>
+                </ul>
+            </div>
+            <div class="flex items-start md:items-end justify-start md:justify-end text-lg mt-4 md:mt-0">
+                <p>© 2025 Family Guy fanpage</p>
+            </div>
+        </div>
+    </footer>
+</section>
+
+<script>
+    // Flip cards on click, and support keyboard (Enter/Space). Update ARIA pressed state.
+    (function(){
+        const cards = document.querySelectorAll('.flip-card');
+        cards.forEach(card => {
+            // toggle on click
+            card.addEventListener('click', function(e){
+                const isFlipped = card.classList.toggle('is-flipped');
+                card.setAttribute('aria-pressed', isFlipped ? 'true' : 'false');
+            });
+
+            // keyboard support: Enter (13) and Space (32)
+            card.addEventListener('keydown', function(e){
+                if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+                    // prevent page scroll on Space
+                    e.preventDefault();
+                    const isFlipped = card.classList.toggle('is-flipped');
+                    card.setAttribute('aria-pressed', isFlipped ? 'true' : 'false');
+                }
+            });
+        });
+    })();
+</script>
+
+</body>
+</html>

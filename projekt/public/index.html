@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Guy – Postavy</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="../assets/css/style.css">
-    
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/script.js"></script>
 </head>
 <body class="font-sans bg-gray-100 text-gray-800">
 
@@ -42,98 +42,14 @@
     <h2 class="text-3xl font-bold mb-6 text-center">Hlavní postavy</h2>
 
     <div id="main-characters" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-
-        <article class="flip-card w-full h-64" tabindex="0" role="button" aria-pressed="false">
-            <div class="flip-inner w-full h-full">
-                <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
-                    <h3 class="text-xl font-bold">Peter Griffin</h3>
-                </div>
-                <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
-                    <div>
-                        <h3 class="text-xl font-bold mb-2">Peter Griffin</h3>
-                        <p class="text-gray-700">Hlavní postava, známý svým humorem a chaosem.</p>
-                    </div>
-                </div>
-            </div>
-        </article>
-
-        <article class="flip-card w-full h-64" tabindex="0" role="button" aria-pressed="false">
-            <div class="flip-inner w-full h-full">
-                <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
-                    <h3 class="text-xl font-bold">Lois Griffin</h3>
-                </div>
-                <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
-                    <div>
-                        <h3 class="text-xl font-bold mb-2">Lois Griffin</h3>
-                        <p class="text-gray-700">Inteligentní, pevná osobnost, drží rodinu pohromadě.</p>
-                    </div>
-                </div>
-            </div>
-        </article>
-
-        <article class="flip-card w-full h-64" tabindex="0" role="button" aria-pressed="false">
-            <div class="flip-inner w-full h-full">
-                <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
-                    <h3 class="text-xl font-bold">Stewie Griffin</h3>
-                </div>
-                <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
-                    <div>
-                        <h3 class="text-xl font-bold mb-2">Stewie Griffin</h3>
-                        <p class="text-gray-700">Něco zatím</p>
-                    </div>
-                </div>
-            </div>
-        </article>
-
+        <!-- Karty se načítají z JSON -->
     </div>
 </section>
     <section id="vedlejsi-postavy" class="mb-20">
         <h2 class="text-3xl font-bold mb-6 text-center">Vedlejší postavy</h2>
 
         <div id="side-characters" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-
-            <article class="flip-card w-full h-64">
-                <div class="flip-inner w-full h-full">
-                    <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
-                        <h3 class="text-xl font-bold">Glenn Quagmire</h3>
-                    </div>
-                    <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
-                        <div>
-                            <h3 class="text-xl font-bold mb-2">Glenn Quagmire</h3>
-                            <p class="text-gray-700">Známý svými výstřelky a „Giggity" frází.</p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <article class="flip-card w-full h-64">
-                <div class="flip-inner w-full h-full">
-                    <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
-                        <h3 class="text-xl font-bold">Joe Swanson</h3>
-                    </div>
-                    <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
-                        <div>
-                            <h3 class="text-xl font-bold mb-2">Joe Swanson</h3>
-                            <p class="text-gray-700">Policista s pevným charakterem a omezenou mobilitou.</p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
-            <article class="flip-card w-full h-64">
-                <div class="flip-inner w-full h-full">
-                    <div class="flip-front bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 overflow-hidden">
-                        <h3 class="text-xl font-bold">Cleveland Brown</h3>
-                    </div>
-                    <div class="flip-back bg-white shadow-lg rounded-xl p-4 text-center border border-gray-200 flex items-center justify-center">
-                        <div>
-                            <h3 class="text-xl font-bold mb-2">Cleveland Brown</h3>
-                            <p class="text-gray-700">Klidný a přátelský soused rodiny Griffinů.</p>
-                        </div>
-                    </div>
-                </div>
-            </article>
-
+            <!-- Karty se načítají z JSON -->
         </div>
     </section>
 
@@ -153,31 +69,6 @@
             </div>
         </div>
     </footer>
-</section>
-
-<script>
-    // Flip cards on click, and support keyboard (Enter/Space). Update ARIA pressed state.
-    (function(){
-        const cards = document.querySelectorAll('.flip-card');
-        cards.forEach(card => {
-            // toggle on click
-            card.addEventListener('click', function(e){
-                const isFlipped = card.classList.toggle('is-flipped');
-                card.setAttribute('aria-pressed', isFlipped ? 'true' : 'false');
-            });
-
-            // keyboard support: Enter (13) and Space (32)
-            card.addEventListener('keydown', function(e){
-                if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
-                    // prevent page scroll on Space
-                    e.preventDefault();
-                    const isFlipped = card.classList.toggle('is-flipped');
-                    card.setAttribute('aria-pressed', isFlipped ? 'true' : 'false');
-                }
-            });
-        });
-    })();
-</script>
 
 </body>
 </html>

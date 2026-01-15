@@ -9,7 +9,7 @@
         "children": "3",
         "spouse": "Lois Griffin",
         "enemy": "Ernie the Giant Chicken",
-        "image": "",
+        "image": "https://via.placeholder.com/300x200?text=Peter+Griffin",
         "description": ""
     },
     {
@@ -21,7 +21,7 @@
         "relationship": "manželka",
         "children": "3",
         "spouse": "Peter Griffin",
-        "image": "",
+        "image": "https://via.placeholder.com/300x200?text=Lois+Griffin",
         "description": ""
     },
     {
@@ -32,7 +32,7 @@
         "status": "živá",
         "relationship": "žádný",
         "children": "žádné",
-        "image": "",
+        "image": "https://via.placeholder.com/300x200?text=Meg+Griffin",
         "description": ""
     },
     {
@@ -43,7 +43,7 @@
         "status": "živý",
         "relationship": "žádný",
         "children": "žádné",
-        "image": "",
+        "image": "https://via.placeholder.com/300x200?text=Chris+Griffin",
         "description": ""
     },
     {
@@ -54,7 +54,7 @@
         "status": "živý",
         "relationship": "žádný",
         "children": "žádné",
-        "image": "",
+        "image": "https://via.placeholder.com/300x200?text=Stewie+Griffin",
         "description": ""
     },
     {
@@ -65,7 +65,7 @@
         "status": "živý",
         "relationship": "žádný",
         "children": "žádné",
-        "image": "",
+        "image": "https://via.placeholder.com/300x200?text=Brian+Griffin",
         "description": ""
     }
 ]
