@@ -1,0 +1,228 @@
+/* === FLIP KARTY - otacive karty postav === */
+/* nastaveni perspektivy pro 3D efekt */
+.flip-card {
+	perspective: 1000px;
+}
+
+.flip-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: transform 0.7s cubic-bezier(.2,.8,.2,1);
+}
+
+/* kdyz ma karta tridu is-flipped, otoci se */
+.flip-card.is-flipped .flip-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card:focus,
+.flip-card:focus-visible {
+  outline: none;
+  outline-offset: 0;
+}
+
+/* predu a zadu karty - absolutni pozice pres sebe */
+.flip-front,
+.flip-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	border-radius: 0.75rem;
+}
+
+.flip-front {
+	transform: rotateY(0deg);
+	z-index: 2;
+	overflow: hidden;
+}
+
+/* maly indikator v rohu aby bylo jasne ze je karta klikatelna */
+.flip-card {
+	cursor: pointer;
+}
+
+.flip-front::after {
+	content: "›";
+	position: absolute;
+	right: 12px;
+	bottom: 12px;
+	left: auto;
+	transform: translateX(0) translateY(0);
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	font-size: 14px;
+	line-height: 1;
+	padding: 6px 8px;
+	border-radius: 999px;
+	pointer-events: none;
+	transition: transform 0.25s ease, opacity 0.25s ease;
+	opacity: 0.95;
+}
+
+/* skryje indikator kdyz se karta otoci */
+.flip-card.is-flipped .flip-front::after {
+	opacity: 0;
+	transform: translateX(8px);
+}
+
+.flip-back {
+	transform: rotateY(180deg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+}
+
+/* obrazky nepretekaji pres zaoblene rohy */
+.flip-front img {
+	display: block;
+	border-radius: 0.5rem;
+}
+
+/* vypne animace pro lidi co je nemaji radi */
+@media (prefers-reduced-motion: reduce) {
+	.flip-inner { transition: none; }
+}
+
+/* === FEEDBACK TLACITKO - pulzujici animace === */
+@keyframes pulse-feedback {
+	0%, 100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+}
+
+#feedback-button {
+	animation: pulse-feedback 2s ease-in-out infinite;
+}
+
+#feedback-button:hover {
+	animation: none;
+}
+
+/* animace otevirani/zavirani modalu */
+#feedback-modal {
+	transition: opacity 0.3s ease;
+}
+
+#feedback-modal.show {
+	display: flex !important;
+	animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#feedback-modal > div {
+	animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateY(-50px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+/* zprava o vysledku - uspech nebo chyba */
+#feedback-message {
+	animation: slideIn 0.3s ease;
+}
+
+#feedback-message.success {
+	background-color: #d4edda;
+	color: #155724;
+	border: 1px solid #c3e6cb;
+}
+
+#feedback-message.error {
+	background-color: #f8d7da;
+	color: #721c24;
+	border: 1px solid #f5c6cb;
+}
+
+/* === HRA HADEJ POSTAVU - 3x3 grid s obrazkem na pozadi === */
+#game-grid {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* jedno policko z 9 - ctverec s cernym prekrytim */
+.grid-tile {
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; /* udela ctverec */
+	overflow: hidden;
+}
+
+/* cerna vrstva pres obrazek - zmizi po odhaleni */
+.grid-tile-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	transition: opacity 0.3s ease;
+	cursor: default;
+}
+
+.grid-tile-overlay.revealed {
+	opacity: 0;
+	pointer-events: none;
+}
+
+/* zelena zprava pri vyhre */
+#game-result.success {
+	color: #22c55e;
+	animation: bounceIn 0.5s ease;
+}
+
+/* cervena zprava pri prohre */
+#game-result.failure {
+	color: #ef4444;
+	animation: shakeX 0.5s ease;
+}
+
+@keyframes bounceIn {
+	0%, 20%, 50%, 80%, 100% {
+		transform: translateY(0);
+	}
+	40% {
+		transform: translateY(-10px);
+	}
+	60% {
+		transform: translateY(-5px);
+	}
+}
+
+@keyframes shakeX {
+	0%, 100% {
+		transform: translateX(0);
+	}
+	10%, 30%, 50%, 70%, 90% {
+		transform: translateX(-5px);
+	}
+	20%, 40%, 60%, 80% {
+		transform: translateX(5px);
+	}
+}

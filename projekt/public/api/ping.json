@@ -1,0 +1,5 @@
+{
+  "status": "ok",
+  "message": "Server bezi (mock JSON)",
+  "timestamp": "{{now}}"
+}
