@@ -15,7 +15,8 @@ Lidé kteří se začínají zajímat o animovaný seriál FAMILY GUY a fanoušc
 1. Základní představení seriálu
 2. Přehled postav
 3. Popis postav
-4. Kontakty
+4. jednoduchá hra
+5. Kontakty
 
 ## Návrh designu / wireframe
 - Barevné ladění k seriálu (modrá, žlutá, béžová, hnědá)
@@ -25,7 +26,7 @@ Lidé kteří se začínají zajímat o animovaný seriál FAMILY GUY a fanoušc
 ## Použité technologie
 - Frontend: HTML, CSS nebo Tailwind CSS, JavaScript
 - Data: JSON soubory
-- AJAX: načítání obsahu sekcí a seznamu štěňat
+- AJAX: načítání obsahu sekcí a seznamu
 - Backend: jednoduchý PHP endpoint pro odeslání kontaktního formuláře
 - Verzování: GitHub (repozitář dostupný vyučujícímu)
 
